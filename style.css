@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    font-family: Nunito;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+img{
+    cursor: pointer;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+header{
+    padding: 300px 0;
+    background-image: linear-gradient(to bottom right, #000 20%, #05b755 100%);
+    color: white;
+}
+
+.container p{
+    width: 70%;
+    display: inline-block;
+}
+
+.container button{
+    width: 25%;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 0;
+    border: none;
+    vertical-align: top;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container button:hover{
+    transform: scale(1.1);
+}
+
+.container hr{
+    margin-bottom: 20px;
+}
+
+.container h1{
+    margin-bottom: 20px;
+}
+
+.gallery{
+height: 1206.5px;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(8 , 1fr);
+    grid-template-rows: repeat(8 , 150px);
+    height: 100vh;
+    grid-gap: 1px;
+    /* background-size: 100%; */
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    margin: auto ;
+    
+}
+
+.about-me{
+    background-image: linear-gradient(to bottom left, #00344a 0%, #000 100%);
+    padding: 200px 0;
+    color: whitesmoke;
+}
+
+.about-me p{
+    width: 100%;
+    text-align: justify;
+}
+
+.images div:nth-child(1){
+    background-image: url(img3/image_part_001.jpg);
+}
+
+.images div:nth-child(2){
+    background-image: url(img3/image_part_002.jpg);
+}
+
+.images div:nth-child(3){
+    background-image: url(img3/image_part_003.jpg);
+}
+
+.images div:nth-child(4){
+    background-image: url(img3/image_part_004.jpg);
+}
+
+.images div:nth-child(5){
+    background-image: url(img3/image_part_005.jpg);
+}
+
+.images div:nth-child(6){
+    background-image: url(img3/image_part_006.jpg);
+}
+
+.images div:nth-child(7){
+    background-image: url(img3/image_part_007.jpg);
+}
+
+.images div:nth-child(8){
+    background-image: url(img3/image_part_008.jpg);
+}
+
+.images div:nth-child(9){
+    background-image: url(img3/image_part_009.jpg);
+}
+
+.images div:nth-child(10){
+    background-image: url(img3/image_part_010.jpg);
+}
+
+.images div:nth-child(11){
+    background-image: url(img3/image_part_011.jpg);
+}
+
+.images div:nth-child(12){
+    background-image: url(img3/image_part_012.jpg);
+}
+
+.images div:nth-child(13){
+    background-image: url(img3/image_part_013.jpg);
+}
+
+.images div:nth-child(14){
+    background-image: url(img3/image_part_014.jpg);
+}
+
+.images div:nth-child(15){
+    background-image: url(img3/image_part_015.jpg);
+}
+
+.images div:nth-child(16){
+    background-image: url(img3/image_part_016.jpg);
+}
+
+.images div:nth-child(17){
+    background-image: url(img3/image_part_017.jpg);
+}
+
+.images div:nth-child(18){
+    background-image: url(img3/image_part_018.jpg);
+}
+
+.images div:nth-child(19){
+    background-image: url(img3/image_part_019.jpg);
+}
+
+.images div:nth-child(20){
+    background-image: url(img3/image_part_020.jpg);
+}
+
+.images div:nth-child(21){
+    background-image: url(img3/image_part_021.jpg);
+}
+
+.images div:nth-child(22){
+    background-image: url(img3/image_part_022.jpg);
+}
+
+.images div:nth-child(23){
+    background-image: url(img3/image_part_023.jpg);
+}
+
+.images div:nth-child(24){
+    background-image: url(img3/image_part_024.jpg);
+}
+
+.images div:nth-child(25){
+    background-image: url(img3/image_part_025.jpg);
+}
+
+.images div:nth-child(26){
+    background-image: url(img3/image_part_026.jpg);
+}
+
+.images div:nth-child(27){
+    background-image: url(img3/image_part_027.jpg);
+}
+
+.images div:nth-child(28){
+    background-image: url(img3/image_part_028.jpg);
+}
+
+.images div:nth-child(29){
+    background-image: url(img3/image_part_029.jpg);
+}
+
+.images div:nth-child(30){
+    background-image: url(img3/image_part_030.jpg);
+}
+
+.images div:nth-child(31){
+    background-image: url(img3/image_part_031.jpg);
+}
+
+.images div:nth-child(32){
+    background-image: url(img3/image_part_032.jpg);
+}
+
+.images div:nth-child(33){
+    background-image: url(img3/image_part_033.jpg);
+}
+
+.images div:nth-child(34){
+    background-image: url(img3/image_part_034.jpg);
+}
+
+.images div:nth-child(35){
+    background-image: url(img3/image_part_035.jpg);
+}
+.images div:nth-child(36){
+    background-image: url(img3/image_part_036.jpg);
+}
+
+.images div:nth-child(37){
+    background-image: url(img3/image_part_037.jpg);
+}
+
+.images div:nth-child(38){
+    background-image: url(img3/image_part_038.jpg);
+}
+
+.images div:nth-child(39){
+    background-image: url(img3/image_part_039.jpg);
+}
+
+.images div:nth-child(40){
+    background-image: url(img3/image_part_040.jpg);
+}
+
+.images div:nth-child(41){
+    background-image: url(img3/image_part_041.jpg);
+}
+
+.images div:nth-child(42){
+    background-image: url(img3/image_part_042.jpg);
+}
+
+.images div:nth-child(43){
+    background-image: url(img3/image_part_043.jpg);
+}
+
+.images div:nth-child(44){
+    background-image: url(img3/image_part_044.jpg);
+}
+
+.images div:nth-child(45){
+    background-image: url(img3/image_part_045.jpg);
+}
+
+.images div:nth-child(46){
+    background-image: url(img3/image_part_046.jpg);
+}
+.images div:nth-child(47){
+    background-image: url(img3/image_part_047.jpg);
+}
+
+.images div:nth-child(48){
+    background-image: url(img3/image_part_048.jpg);
+}
+
+.images div:nth-child(49){
+    background-image: url(img3/image_part_049.jpg);
+}
+
+.images div:nth-child(50){
+    background-image: url(img3/image_part_050.jpg);
+}
+
+.images div:nth-child(51){
+    background-image: url(img3/image_part_051.jpg);
+}
+
+.images div:nth-child(52){
+    background-image: url(img3/image_part_052.jpg);
+}
+
+.images div:nth-child(53){
+    background-image: url(img3/image_part_053.jpg);
+}
+
+.images div:nth-child(54){
+    background-image: url(img3/image_part_054.jpg);
+}
+
+.images div:nth-child(55){
+    background-image: url(img3/image_part_055.jpg);
+}
+
+.images div:nth-child(56){
+    background-image: url(img3/image_part_056.jpg);
+}
+
+.images div:nth-child(57){
+    background-image: url(img3/image_part_057.jpg);
+}
+.images div:nth-child(58){
+    background-image: url(img3/image_part_058.jpg);
+}
+
+.images div:nth-child(59){
+    background-image: url(img3/image_part_059.jpg);
+}
+.images div:nth-child(60){
+    background-image: url(img3/image_part_060.jpg);
+}
+
+
+.images div:nth-child(61){
+    background-image: url(img3/image_part_061.jpg);
+}
+
+.images div:nth-child(62){
+    background-image: url(img3/image_part_062.jpg);
+}
+
+.images div:nth-child(63){
+    background-image: url(img3/image_part_063.jpg);
+}
+
+.images div:nth-child(64){
+    background-image: url(img3/image_part_064.jpg);
+}
+
+.active{
+    filter: brightness(100%);
+    transform: scale(1.05);
+    border-radius: 20px;
+}
+
+.not_active{
+    filter: brightness(30%);
+}
+
+.image{
+    transition: 0.5s;
+}
+
+.profile-img img{
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.profile-img img:hover{
+    transform: scale(1.05);
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.profile-info{
+    padding: 10px;
+}
+
+.profile-img{
+    padding: 10px;
+}
+
+.old-price{
+    display: inline-block;
+    text-decoration: line-through;
+    color: white;
+    text-decoration-color:red;
+    text-align: center;
+}
+
+.new-price{
+    display: inline-block;
+    padding-left: 30px;
+    color: #0ea5d4;
+    text-align: center;
+}
+
+.profile-info button{
+    display:block;
+    margin: 0 auto;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+}
+
+.gal-img img{
+    width: 33%;
+    border-radius: 15px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.gal-img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.gallery-img{
+    padding: 200px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #000000 0%, #294c60 100% );
+}
+
+.gal-title{
+    margin-bottom: 50px;
+    font-size: 22px;
+    color: white;
+}
+
+.gal-img img:hover{
+    transform: scale(1.05);
+}
